@@ -27,11 +27,9 @@ public class AirSeats {
         seats = sb.toString();
         
         //create arraylist for taken seats 
-        ArrayList<String> myList = new 
-ArrayList<String>(Arrays.asList(S.split(" ")));
+        ArrayList<String> myList = new ArrayList<String>(Arrays.asList(S.split(" ")));
         //create arraylist for all the possible seats 
-        ArrayList<String> myList2 = new 
-ArrayList<String>(Arrays.asList(seats.split(" ")));
+        ArrayList<String> myList2 = new ArrayList<String>(Arrays.asList(seats.split(" ")));
         
         //remove taken seats from the possible seats 
         for(int i=0; i<myList.size(); i++){
