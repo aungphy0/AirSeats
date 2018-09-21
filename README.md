@@ -1,3 +1,3 @@
 # AirSeats-
 
-codint challenge for ClassPass interview 
+coding challenge for ClassPass interview 
